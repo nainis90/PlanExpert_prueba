@@ -280,7 +280,6 @@ export default function App() {
           vistaActiva === 'cuestionario') && (
           <ManualTestsBar
             onCargarCaso={handleCargarCaso}
-            onEjecutarErrorApi={handleEjecutarErrorApi}
             ejecutandoConsulta={isLoading}
           />
         )}
